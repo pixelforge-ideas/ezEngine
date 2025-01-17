@@ -86,6 +86,7 @@ protected:
     return ret;
   }
 
+public:
   // Index based remapping ignores address identity and solely uses the object's parent index to define
   // its guid. Set it to true if the native changes are complete clear and replace operations and
   // not incremental changes to the existing data.
